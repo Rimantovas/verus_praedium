@@ -1,4 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+import 'package:verus_praedium/pages/cities_page.dart';
+import 'package:verus_praedium/pages/statistics.dart';
+import 'package:verus_praedium/pages/test.dart';
+import 'package:verus_praedium/pages/test2.dart';
+import 'package:verus_praedium/pages/test3.dart';
+import 'package:verus_praedium/pages/test4.dart';
+import 'package:verus_praedium/pages/test5.dart';
+
+import 'models/model.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,58 +22,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Verus praedium',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: const Color(0xFF502BA0),
+        canvasColor: const Color(0xFF060224),
+        colorScheme: ColorScheme.fromSwatch()
+            .copyWith(secondary: const Color(0xFF060224)),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ),
+      home: CitiesPage(),
     );
   }
 }
