@@ -10,14 +10,14 @@ List<Map<String, String>> images = [
   },
   {
     'Siauliai':
-        'https://image.shutterstock.com/image-photo/siauliai-city-scapes-600w-780934642.jpg'
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Szawle_katedra.jpg/375px-Szawle_katedra.jpg'
   },
   {
     'Panevezys':
-        'https://image.shutterstock.com/image-photo/aerial-view-panevezys-cathedral-260nw-1399228874.jpg'
+        'https://g2.dcdn.lt/images/pix/880x550/JnFyrw5Yryc/panevezys-87801515.jpg'
   },
   {
     'Alytus':
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alytus.png/375px-Alytus.png'
+        'https://www.themayor.eu/web/files/cities/128/main_image/thumb_1200x630_DJI_0019.jpg'
   }
 ];
