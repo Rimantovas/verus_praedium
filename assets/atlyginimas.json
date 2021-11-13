@@ -1,0 +1,602 @@
+[
+ {
+   "Laikotarpis": 2020,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Vilniaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1590.6
+ },
+ {
+   "Laikotarpis": 2020,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Alytaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1166.4
+ },
+ {
+   "Laikotarpis": 2020,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Kauno apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1419.2
+ },
+ {
+   "Laikotarpis": 2020,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Klaipėdos apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1350.5
+ },
+ {
+   "Laikotarpis": 2020,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Panevėžio apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1224.8
+ },
+ {
+   "Laikotarpis": 2020,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Šiaulių apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1210.5
+ },
+ {
+   "Laikotarpis": 2019,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Vilniaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1452.6
+ },
+ {
+   "Laikotarpis": 2019,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Alytaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1079.5
+ },
+ {
+   "Laikotarpis": 2019,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Kauno apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1284.7
+ },
+ {
+   "Laikotarpis": 2019,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Klaipėdos apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1225.5
+ },
+ {
+   "Laikotarpis": 2019,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Panevėžio apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1117.2
+ },
+ {
+   "Laikotarpis": 2019,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Šiaulių apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1069.7
+ },
+ {
+   "Laikotarpis": 2018,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Vilniaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 1034.6
+ },
+ {
+   "Laikotarpis": 2018,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Alytaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 771.9
+ },
+ {
+   "Laikotarpis": 2018,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Kauno apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 909.2
+ },
+ {
+   "Laikotarpis": 2018,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Klaipėdos apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 887.2
+ },
+ {
+   "Laikotarpis": 2018,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Panevėžio apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 801
+ },
+ {
+   "Laikotarpis": 2018,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Šiaulių apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 772.8
+ },
+ {
+   "Laikotarpis": 2017,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Vilniaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 939.8
+ },
+ {
+   "Laikotarpis": 2017,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Alytaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 707.7
+ },
+ {
+   "Laikotarpis": 2017,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Kauno apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 828
+ },
+ {
+   "Laikotarpis": 2017,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Klaipėdos apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 806.6
+ },
+ {
+   "Laikotarpis": 2017,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Panevėžio apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 735.2
+ },
+ {
+   "Laikotarpis": 2017,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Šiaulių apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 708.6
+ },
+ {
+   "Laikotarpis": 2016,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Vilniaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 863.7
+ },
+ {
+   "Laikotarpis": 2016,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Alytaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 656.3
+ },
+ {
+   "Laikotarpis": 2016,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Kauno apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 760.2
+ },
+ {
+   "Laikotarpis": 2016,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Klaipėdos apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 753
+ },
+ {
+   "Laikotarpis": 2016,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Panevėžio apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 676.1
+ },
+ {
+   "Laikotarpis": 2016,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Šiaulių apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 654.1
+ },
+ {
+   "Laikotarpis": 2015,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Vilniaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 803.7
+ },
+ {
+   "Laikotarpis": 2015,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Alytaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 606.7
+ },
+ {
+   "Laikotarpis": 2015,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Kauno apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 694
+ },
+ {
+   "Laikotarpis": 2015,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Klaipėdos apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 694.5
+ },
+ {
+   "Laikotarpis": 2015,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Panevėžio apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 621.6
+ },
+ {
+   "Laikotarpis": 2015,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Šiaulių apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 596.7
+ },
+ {
+   "Laikotarpis": 2014,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Vilniaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 768.3
+ },
+ {
+   "Laikotarpis": 2014,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Alytaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 580.1
+ },
+ {
+   "Laikotarpis": 2014,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Kauno apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 655.1
+ },
+ {
+   "Laikotarpis": 2014,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Klaipėdos apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 657.3
+ },
+ {
+   "Laikotarpis": 2014,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Panevėžio apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 586.7
+ },
+ {
+   "Laikotarpis": 2014,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Šiaulių apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 559.2
+ },
+ {
+   "Laikotarpis": 2013,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Vilniaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 732.9
+ },
+ {
+   "Laikotarpis": 2013,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Alytaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 556.5
+ },
+ {
+   "Laikotarpis": 2013,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Kauno apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 623.8
+ },
+ {
+   "Laikotarpis": 2013,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Klaipėdos apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 628.7
+ },
+ {
+   "Laikotarpis": 2013,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Panevėžio apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 555.9
+ },
+ {
+   "Laikotarpis": 2013,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Šiaulių apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 537.2
+ },
+ {
+   "Laikotarpis": 2012,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Vilniaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 703.8
+ },
+ {
+   "Laikotarpis": 2012,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Alytaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 521
+ },
+ {
+   "Laikotarpis": 2012,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Kauno apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 589.3
+ },
+ {
+   "Laikotarpis": 2012,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Klaipėdos apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 603.8
+ },
+ {
+   "Laikotarpis": 2012,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Panevėžio apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 528.6
+ },
+ {
+   "Laikotarpis": 2012,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Šiaulių apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 506.3
+ },
+ {
+   "Laikotarpis": 2011,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Vilniaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 677.2
+ },
+ {
+   "Laikotarpis": 2011,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Alytaus apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 504.4
+ },
+ {
+   "Laikotarpis": 2011,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Kauno apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 568.9
+ },
+ {
+   "Laikotarpis": 2011,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Klaipėdos apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 586
+ },
+ {
+   "Laikotarpis": 2011,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Panevėžio apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 511.6
+ },
+ {
+   "Laikotarpis": 2011,
+   "Rodiklis": "Darbo užmokestis (mėnesinis)",
+   "Administracinė teritorija": "Šiaulių apskritis",
+   "Tipas": "Bruto",
+   "Lytis": "Vyrai ir moterys",
+   "Sektorius": "Šalies ūkis su individualiosiomis įmonėmis",
+   "Matavimo vienetai": "EUR",
+   "Reikšmė": 493.8
+ }
+]
