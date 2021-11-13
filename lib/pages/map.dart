@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_maps/maps.dart';
+import 'package:verus_praedium/globals/globals.dart';
+import 'package:verus_praedium/models/city.dart';
 import 'package:verus_praedium/models/model.dart';
 
 class MapPage extends StatefulWidget {
-  const MapPage({Key? key}) : super(key: key);
-
+  const MapPage({Key? key, required this.cities}) : super(key: key);
+  final List<City> cities;
   @override
   State<MapPage> createState() => _MapPageState();
 }
@@ -12,17 +14,56 @@ class MapPage extends StatefulWidget {
 class _MapPageState extends State<MapPage> {
   late List<Model> _data;
   late MapShapeSource _mapSource;
+  int checkCount = 0;
 
   @override
   void initState() {
     super.initState();
-    _data = const <Model>[
-      Model('Kauno apskritis', Color(0xFF502BA0), 'Kauno apskritis'),
-      Model('Vilniaus apskritis', Color(0xFF502BA0), 'Vilniaus apskritis'),
-      Model('Klaipėdos apskritis', Color(0xFF502BA0), 'Klaipėdos apskritis'),
-      Model('Panevėžio apskritis', Color(0xFF502BA0), 'Panevėžio apskritis'),
-      Model('Alytaus apskritis', Color(0xFF502BA0), 'Alytaus apskritis'),
-      Model('Šiaulių apskritis', Color(0xFF502BA0), 'Šiaulių apskritis'),
+    checkCount = sliderInfo.where((element) => element['check']).length;
+
+    _data = <Model>[
+      Model(
+          'Kauno apskritis',
+          Color(0xFF502BA0).withOpacity(widget.cities
+                  .firstWhere((element) => element.enumas == Miestai.kaunas)
+                  .getStarRating3() /
+              checkCount),
+          'Kauno apskritis'),
+      Model(
+          'Vilniaus apskritis',
+          Color(0xFF502BA0).withOpacity(widget.cities
+                  .firstWhere((element) => element.enumas == Miestai.vilnius)
+                  .getStarRating3() /
+              checkCount),
+          'Vilniaus apskritis'),
+      Model(
+          'Klaipėdos apskritis',
+          Color(0xFF502BA0).withOpacity(widget.cities
+                  .firstWhere((element) => element.enumas == Miestai.klaipeda)
+                  .getStarRating3() /
+              checkCount),
+          'Klaipėdos apskritis'),
+      Model(
+          'Panevėžio apskritis',
+          Color(0xFF502BA0).withOpacity(widget.cities
+                  .firstWhere((element) => element.enumas == Miestai.panevezys)
+                  .getStarRating3() /
+              checkCount),
+          'Panevėžio apskritis'),
+      Model(
+          'Alytaus apskritis',
+          Color(0xFF502BA0).withOpacity(widget.cities
+                  .firstWhere((element) => element.enumas == Miestai.alytus)
+                  .getStarRating3() /
+              checkCount),
+          'Alytaus apskritis'),
+      Model(
+          'Šiaulių apskritis',
+          Color(0xFF502BA0).withOpacity(widget.cities
+                  .firstWhere((element) => element.enumas == Miestai.siauliai)
+                  .getStarRating3() /
+              checkCount),
+          'Šiaulių apskritis'),
     ];
     _mapSource = MapShapeSource.asset(
       'assets/lithuania.json',
@@ -53,7 +94,7 @@ class _MapPageState extends State<MapPage> {
             layers: <MapShapeLayer>[
               MapShapeLayer(
                 source: _mapSource,
-                color: Theme.of(context).primaryColor,
+                color: const Color(0xFF454545),
                 showDataLabels: true,
                 // legend: const MapLegend(MapElement.shape),
                 tooltipSettings: MapTooltipSettings(

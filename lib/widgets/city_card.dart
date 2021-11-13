@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_rating_stars/flutter_rating_stars.dart';
+import 'package:verus_praedium/globals/globals.dart';
+import 'package:verus_praedium/models/city.dart';
 
 class CityCard extends StatelessWidget {
   const CityCard({
-    required this.imageUrl,
     required this.city,
     this.radius = 30,
     this.elevation = 1,
@@ -11,8 +13,7 @@ class CityCard extends StatelessWidget {
     Key? key,
   }) : super(key: key);
 
-  final String imageUrl;
-  final String city;
+  final City city;
   final double radius;
   final double elevation;
   final double borderWidth;
@@ -48,9 +49,24 @@ class CityCard extends StatelessWidget {
                     right: -1,
                     bottom: -1,
                     child: Image.network(
-                      imageUrl,
+                      city.imageUrl,
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.medium,
+                    ),
+                  ),
+                  Positioned(
+                    bottom: 10,
+                    left: 20,
+                    child: Align(
+                      alignment: Alignment.bottomCenter,
+                      child: RatingStars(
+                        value: city.getStarRating3(),
+                        maxValue: sliderInfo
+                            .where((element) => element['check'])
+                            .length
+                            .toDouble(),
+                        valueLabelVisibility: false,
+                      ),
                     ),
                   ),
                   Align(
@@ -65,11 +81,10 @@ class CityCard extends StatelessWidget {
                         child: FittedBox(
                           fit: BoxFit.scaleDown,
                           child: Text(
-                            city,
+                            city.name,
                             textAlign: TextAlign.center,
                             maxLines: 1,
                             style: const TextStyle(
-                              color: Colors.white,
                               fontSize: 30,
                             ),
                           ),
@@ -86,13 +101,6 @@ class CityCard extends StatelessWidget {
             ),
           ),
         ),
-        const Text(
-          'Score: 15',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 20,
-          ),
-        )
       ],
     );
   }

@@ -1,113 +1,75 @@
 import 'dart:convert';
-
+import 'package:charts_flutter/flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:graphic/graphic.dart';
-import 'package:verus_praedium/models/statybu_model.dart';
-import 'package:verus_praedium/pages/map.dart';
+import 'package:verus_praedium/globals/globals.dart';
+import 'package:verus_praedium/models/city.dart';
+import 'package:verus_praedium/models/data_results.dart';
 
 class StatisticsPage extends StatefulWidget {
-  const StatisticsPage({Key? key}) : super(key: key);
+  const StatisticsPage({Key? key, required this.city}) : super(key: key);
+  final City city;
 
   @override
   _StatisticsPageState createState() => _StatisticsPageState();
 }
 
 class _StatisticsPageState extends State<StatisticsPage> {
-  List<Map<String, dynamic>> data = [];
-
-  Future<void> getData() async {
-    String temp = await DefaultAssetBundle.of(context)
-        .loadString("assets/statybu_sk.json");
-    List<Map<String, dynamic>> list = [];
-    var map = jsonDecode(temp);
-    for (var item in map) {
-      if (item['Kambarių skaičius'].toString() == 'Iš viso pastatytų butų' &&
-          item['Administracinė teritorija'].toString() ==
-              'Vilniaus apskritis') {
-        list.add({
-          'Laikotarpis': item['Laikotarpis'],
-          'Reikšmė': item['Reikšmė'],
-        });
-      }
-    }
-    setState(() {
-      data = list;
-    });
-  }
-
   @override
   void initState() {
     super.initState();
-    getData();
+  }
+
+  List<Series<Map<dynamic, dynamic>, String>> _createSampleData() {
+    return [
+      Series<Map<dynamic, dynamic>, String>(
+        id: 'Global Revenue',
+        domainFn: (Map<dynamic, dynamic> sales, _) => sales['year'],
+        measureFn: (Map<dynamic, dynamic> sales, _) =>
+            sales['value'].toDouble() as num,
+        data: widget.city.results.values
+            .firstWhere((element) => element.rodiklis == Rodikliai.atlyginimas)
+            .reiksmes
+            .toList(),
+      ),
+    ];
   }
 
   @override
   Widget build(BuildContext context) {
-    return data.length > 0
-        ? Scaffold(
-            appBar: AppBar(
-                backgroundColor: Colors.transparent,
-                shadowColor: Colors.transparent,
-                leading: IconButton(
-                  icon: const Icon(Icons.arrow_back_ios),
-                  onPressed: () =>
-                      Navigator.canPop(context) ? Navigator.pop(context) : null,
-                ),
-                actions: [
-                  IconButton(
-                    icon: const Icon(Icons.map),
-                    onPressed: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const MapPage())),
-                  ),
-                ]),
-            body: Chart(
-              data: data,
-              variables: {
-                'Laikotarpis': Variable(
-                  accessor: (Map map) => map['Laikotarpis'].toString(),
-                  scale: OrdinalScale(tickCount: 5),
-                ),
-                'Reikšmė': Variable(
-                  accessor: (Map map) => (map['Reikšmė'] ?? 0) as num,
-                ),
-              },
-              elements: [
-                AreaElement(
-                  shape: ShapeAttr(value: BasicAreaShape(smooth: true)),
-                  color:
-                      ColorAttr(value: Defaults.colors10.first.withAlpha(80)),
-                ),
-                LineElement(
-                  shape: ShapeAttr(value: BasicLineShape(smooth: true)),
-                  size: SizeAttr(value: 0.5),
-                ),
-              ],
-              axes: [
-                Defaults.horizontalAxis,
-                Defaults.verticalAxis,
-              ],
-              selections: {
-                'touchMove': PointSelection(
-                  on: {
-                    GestureType.scaleUpdate,
-                    GestureType.tapDown,
-                    GestureType.longPressMoveUpdate
-                  },
-                  dim: 1,
-                )
-              },
-              tooltip: TooltipGuide(
-                followPointer: [false, true],
-                align: Alignment.topLeft,
-                offset: const Offset(-20, -20),
+    final width = MediaQuery.of(context).size.width;
+    return Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+          shadowColor: Colors.transparent,
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back_ios),
+            onPressed: () =>
+                Navigator.canPop(context) ? Navigator.pop(context) : null,
+          ),
+        ),
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Container(
+              height: 200,
+              width: width * .8,
+              alignment: Alignment.center,
+              child: BarChart(
+                _createSampleData(),
+                animate: true,
+                primaryMeasureAxis:
+                    const NumericAxisSpec(renderSpec: NoneRenderSpec()),
+                domainAxis: const OrdinalAxisSpec(
+                    showAxisLine: true, renderSpec: NoneRenderSpec()),
+                // layoutConfig: LayoutConfig(
+                //     leftMarginSpec: MarginSpec.fixedPixel(0),
+                //     topMarginSpec: MarginSpec.fixedPixel(0),
+                //     rightMarginSpec: MarginSpec.fixedPixel(0),
+                //     bottomMarginSpec: MarginSpec.fixedPixel(0)),
               ),
-              crosshair: CrosshairGuide(followPointer: [false, true]),
             ),
-          )
-        : const Center(
-            child: CircularProgressIndicator(),
-          );
+          ],
+        ));
   }
 }
