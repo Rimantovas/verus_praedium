@@ -79,9 +79,15 @@ class CityCard extends StatelessWidget {
                         starOffColor: const Color(0xFF261563),
                         value: city.getStarRating3(),
                         maxValue: sliderInfo
-                            .where((element) => element['check'])
-                            .length
-                            .toDouble(),
+                                    .where((element) => element['check'])
+                                    .length
+                                    .toDouble() >
+                                0
+                            ? sliderInfo
+                                .where((element) => element['check'])
+                                .length
+                                .toDouble()
+                            : 8,
                         valueLabelVisibility: false,
                       ),
                     ),
