@@ -28,21 +28,11 @@ class _SlidersPageState extends State<SlidersPage> {
                   showDialog<void>(
                     context: context,
                     builder: (BuildContext context) {
-                      return Container(
-                        height: 400,
-                        color: const Color(0xFF592C5A),
-                        child: Center(
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            mainAxisSize: MainAxisSize.min,
-                            children: <Widget>[
-                              const Text('Modal BottomSheet'),
-                              ElevatedButton(
-                                child: const Text('Close BottomSheet'),
-                                onPressed: () => Navigator.pop(context),
-                              )
-                            ],
-                          ),
+                      return AlertDialog(
+                        title: const Text('Instrukcijos'),
+                        content: Center(
+                          child: const Text(
+                              'Duomenys buvo imti iš oficialiosios statistikos portalų:\nhttps://osp.stat.gov.lt/\nhttps://osp.stat.gov.lt/statistiniu-rodikliu-analize#/'),
                         ),
                       );
                     },
