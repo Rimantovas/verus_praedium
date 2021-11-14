@@ -14,14 +14,6 @@ class CitiesPage extends StatelessWidget {
       appBar: AppBar(
           backgroundColor: Colors.transparent,
           shadowColor: Colors.transparent,
-          leading: IconButton(
-            icon: const Icon(
-              Icons.arrow_back_ios,
-              color: Colors.white,
-            ),
-            onPressed: () =>
-                Navigator.canPop(context) ? Navigator.pop(context) : null,
-          ),
           actions: [
             IconButton(
               icon: const Icon(

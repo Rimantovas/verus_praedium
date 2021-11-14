@@ -48,18 +48,35 @@ class CityCard extends StatelessWidget {
                     left: -1,
                     right: -1,
                     bottom: -1,
-                    child: Image.network(
+                    child: Image.asset(
                       city.imageUrl,
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.medium,
                     ),
                   ),
                   Positioned(
-                    bottom: 10,
-                    left: 20,
-                    child: Align(
+                    bottom: 0,
+                    left: 0,
+                    child: Container(
+                      width: 150,
+                      padding: EdgeInsets.only(bottom: 10),
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                            colors: [
+                              Colors.black.withOpacity(.5),
+                              Colors.black.withOpacity(0),
+                            ],
+                            stops: const [
+                              0.8,
+                              1
+                            ],
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.topCenter),
+                        // borderRadius: BorderRadius.circular(radius),
+                      ),
                       alignment: Alignment.bottomCenter,
                       child: RatingStars(
+                        starOffColor: const Color(0xFF261563),
                         value: city.getStarRating3(),
                         maxValue: sliderInfo
                             .where((element) => element['check'])
@@ -75,7 +92,17 @@ class CityCard extends StatelessWidget {
                         width: MediaQuery.of(context).size.width,
                         padding: const EdgeInsets.all(10),
                         decoration: BoxDecoration(
-                          color: Colors.black.withOpacity(.5),
+                          gradient: LinearGradient(
+                              colors: [
+                                Colors.black.withOpacity(.5),
+                                Colors.black.withOpacity(0),
+                              ],
+                              stops: const [
+                                0.5,
+                                1
+                              ],
+                              begin: Alignment.topCenter,
+                              end: Alignment.bottomCenter),
                           // borderRadius: BorderRadius.circular(radius),
                         ),
                         child: FittedBox(

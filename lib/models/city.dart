@@ -6,7 +6,7 @@ class City {
   final String imageUrl;
   final String name;
   final Miestai enumas;
-  final Map<String, DataResults> results;
+  final Map<Rodikliai, DataResults> results;
   City(
       {required this.imageUrl,
       required this.name,
@@ -22,7 +22,6 @@ class City {
         result += (data['value'] ?? 0) * (item.vidurkis / item.citiesMax);
       }
     }
-    print(result);
     return result;
   }
 
@@ -40,7 +39,6 @@ class City {
                 (item.citiesMax - item.citiesMin));
       }
     }
-    print(result);
     return result;
   }
 
@@ -61,7 +59,27 @@ class City {
         result += 1 - ((valueOfSlider - item.vidurkis).abs() / x);
       }
     }
-    print(result);
+    return result;
+  }
+
+  double getIndividualStarRating(Rodikliai rodiklis) {
+    double result = 0;
+    DataResults? item = results[rodiklis];
+    if (item != null) {
+      var data = sliderInfo
+          .firstWhereOrNull((element) => element['name'] == item.rodiklis);
+      if (data != null && data['check']) {
+        double valueOfSlider =
+            item.citiesMin + (item.citiesMax - item.citiesMin) * data['value'];
+        double x = 0;
+        if (item.citiesMax - valueOfSlider > valueOfSlider - item.citiesMin) {
+          x = item.citiesMax - valueOfSlider;
+        } else {
+          x = valueOfSlider - item.citiesMin;
+        }
+        result += 1 - ((valueOfSlider - item.vidurkis).abs() / x);
+      }
+    }
     return result;
   }
 }

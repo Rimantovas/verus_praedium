@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 /// Collection of Australia state code data.
 class Model {
   /// Initialize the instance of the [Model] class.
-  const Model(this.state, this.color, this.stateCode);
+  const Model(this.state, this.color, this.stateCode, this.tooltip);
 
   /// Represents the Australia state name.
   final String state;
@@ -15,4 +15,6 @@ class Model {
 
   /// Represents the Australia state code.
   final String stateCode;
+
+  final String tooltip;
 }

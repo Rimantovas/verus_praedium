@@ -1,386 +1,194 @@
 [
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 67508.85
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 105975.39
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 118193.04
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 89060.09
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 96475.44
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 135176.14
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 407.62
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 852.89
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 850.93
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 626.64
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 621.48
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 1126.82
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 66420.33
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 99161.26
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 116964.23
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 83585.34
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 82288.37
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 132603.32
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 319.45
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 797.04
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 879.38
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 550.77
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 497.24
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 1042.71
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 73263.05
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 91592
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 115898.94
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 78557.58
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 80175.65
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 128794.98
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 374.2
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 714.5
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 902.2
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 526.6
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 496.9
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 969.4
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 66275.72
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 88811.9
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 131952.7
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 68840.49
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 77785.05
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR",
-   "Reikšmė": 132048.54
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 356
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 646
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 842.8
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 467.7
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 465.8
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Būsto tipas": "Vieno ir dviejų būstų pastatai",
-   "Matavimo vienetai": "EUR/m²",
-   "Reikšmė": 905.5
- }
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 356
+	},
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 646
+	},
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 842.8
+	},
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 467.7
+	},
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 465.8
+	},
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 905.5
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 374.2
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 714.5
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 902.2
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 526.6
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 496.9
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 969.4
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 319.45
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 797.04
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 879.38
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 550.77
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 497.24
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 1042.71
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 407.62
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 852.89
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 850.93
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 626.64
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 621.48
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Būsto pirkimo-pardavimo vidutinės kainos",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Būsto tipas": "Vieno ir dviejų būstų pastatai",
+		"Matavimo vienetai": "EUR/m²",
+		"Reikšmė": 1126.82
+	}
 ]

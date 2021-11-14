@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:graphic/graphic.dart';
 import 'package:verus_praedium/data/data.dart';
 
-class PointPage extends StatelessWidget {
-  PointPage({Key? key}) : super(key: key);
+class LineAreaPage extends StatelessWidget {
+  LineAreaPage({Key? key}) : super(key: key);
 
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -12,7 +12,7 @@ class PointPage extends StatelessWidget {
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(
-        title: const Text('Point Element'),
+        title: const Text('Line and Area Element'),
       ),
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
@@ -21,28 +21,21 @@ class PointPage extends StatelessWidget {
             children: <Widget>[
               Container(
                 child: const Text(
-                  'Interactive Scatter Chart',
+                  'Smooth Line and Area chart',
                   style: TextStyle(fontSize: 20),
                 ),
                 padding: const EdgeInsets.fromLTRB(20, 40, 20, 5),
               ),
               Container(
                 child: const Text(
-                  '- Tuples in various shapes for different types.',
+                  '- Line and area will break at NaN.',
                 ),
                 padding: const EdgeInsets.fromLTRB(10, 5, 10, 0),
                 alignment: Alignment.centerLeft,
               ),
               Container(
                 child: const Text(
-                  '- Tap to toggle a multiple selecton.',
-                ),
-                padding: const EdgeInsets.fromLTRB(10, 5, 10, 0),
-                alignment: Alignment.centerLeft,
-              ),
-              Container(
-                child: const Text(
-                  '- Scalable coordinate ranges.',
+                  '- A touch moving triggerd selection.',
                 ),
                 padding: const EdgeInsets.fromLTRB(10, 5, 10, 0),
                 alignment: Alignment.centerLeft,
@@ -52,151 +45,122 @@ class PointPage extends StatelessWidget {
                 width: 350,
                 height: 300,
                 child: Chart(
-                  data: scatterData,
+                  data: invalidData,
                   variables: {
-                    '0': Variable(
-                      accessor: (List datum) => datum[0] as num,
+                    'Date': Variable(
+                      accessor: (Map map) => map['Date'] as String,
+                      scale: OrdinalScale(tickCount: 5),
                     ),
-                    '1': Variable(
-                      accessor: (List datum) => datum[1] as num,
-                    ),
-                    '2': Variable(
-                      accessor: (List datum) => datum[2] as num,
-                    ),
-                    '4': Variable(
-                      accessor: (List datum) => datum[4].toString(),
+                    'Close': Variable(
+                      accessor: (Map map) =>
+                          (map['Close'] ?? double.nan) as num,
                     ),
                   },
                   elements: [
-                    PointElement(
-                      size: SizeAttr(variable: '2', values: [5, 20]),
+                    AreaElement(
+                      shape: ShapeAttr(value: BasicAreaShape(smooth: true)),
                       color: ColorAttr(
-                        variable: '4',
-                        values: Defaults.colors10,
-                        onSelection: {
-                          'choose': {true: (_) => Colors.red}
-                        },
-                      ),
-                      shape: ShapeAttr(variable: '4', values: [
-                        CircleShape(hollow: true),
-                        SquareShape(hollow: true),
-                      ]),
-                    )
+                          value: Defaults.colors10.first.withAlpha(80)),
+                    ),
+                    LineElement(
+                      shape: ShapeAttr(value: BasicLineShape(smooth: true)),
+                      size: SizeAttr(value: 0.5),
+                    ),
                   ],
                   axes: [
                     Defaults.horizontalAxis,
                     Defaults.verticalAxis,
                   ],
-                  coord: RectCoord(
-                    horizontalRange: [0.05, 0.95],
-                    verticalRange: [0.05, 0.95],
-                    onHorizontalRangeSignal: Defaults.horizontalRangeSignal,
-                    onVerticalRangeSignal: Defaults.verticalRangeSignal,
-                  ),
-                  selections: {'choose': PointSelection(toggle: true)},
+                  selections: {
+                    'touchMove': PointSelection(
+                      on: {
+                        GestureType.scaleUpdate,
+                        GestureType.tapDown,
+                        GestureType.longPressMoveUpdate
+                      },
+                      dim: 1,
+                    )
+                  },
                   tooltip: TooltipGuide(
-                    anchor: (_) => Offset.zero,
-                    align: Alignment.bottomRight,
-                    multiTuples: true,
+                    followPointer: [false, true],
+                    align: Alignment.topLeft,
+                    offset: const Offset(-20, -20),
                   ),
+                  crosshair: CrosshairGuide(followPointer: [false, true]),
                 ),
               ),
               Container(
                 child: const Text(
-                  'Interval selection',
+                  'River chart',
                   style: TextStyle(fontSize: 20),
                 ),
                 padding: const EdgeInsets.fromLTRB(20, 40, 20, 5),
-              ),
-              Container(
-                child: const Text(
-                  '- Pan to trigger an interval selection.',
-                ),
-                padding: const EdgeInsets.fromLTRB(10, 5, 10, 0),
-                alignment: Alignment.centerLeft,
-              ),
-              Container(
-                child: const Text(
-                  '- Note to pan horizontally first to avoid conflict with the scroll view.',
-                ),
-                padding: const EdgeInsets.fromLTRB(10, 5, 10, 0),
-                alignment: Alignment.centerLeft,
-              ),
-              Container(
-                child: const Text(
-                  '- Axis lines set to middle of the coordinate region.',
-                ),
-                padding: const EdgeInsets.fromLTRB(10, 5, 10, 0),
-                alignment: Alignment.centerLeft,
               ),
               Container(
                 margin: const EdgeInsets.only(top: 10),
                 width: 350,
                 height: 300,
                 child: Chart(
-                  data: scatterData,
+                  data: riverData,
                   variables: {
-                    '0': Variable(
-                      accessor: (List datum) => datum[0] as num,
+                    'date': Variable(
+                      accessor: (List list) => list[0] as String,
+                      scale: OrdinalScale(tickCount: 5),
                     ),
-                    '1': Variable(
-                      accessor: (List datum) => datum[1] as num,
+                    'value': Variable(
+                      accessor: (List list) => list[1] as num,
+                      scale: LinearScale(min: -120, max: 120),
                     ),
-                    '2': Variable(
-                      accessor: (List datum) => datum[2] as num,
-                    ),
-                    '4': Variable(
-                      accessor: (List datum) => datum[4].toString(),
+                    'type': Variable(
+                      accessor: (List list) => list[2] as String,
                     ),
                   },
                   elements: [
-                    PointElement(
-                      size: SizeAttr(variable: '2', values: [5, 20]),
+                    AreaElement(
+                      shape: ShapeAttr(value: BasicAreaShape(smooth: true)),
                       color: ColorAttr(
-                        variable: '4',
+                        variable: 'type',
                         values: Defaults.colors10,
-                        onSelection: {
-                          'choose': {true: (_) => Colors.red}
-                        },
                       ),
-                      shape: ShapeAttr(variable: '4', values: [
-                        CircleShape(hollow: true),
-                        SquareShape(hollow: true),
-                      ]),
-                    )
+                      groupBy: 'type',
+                      modifiers: [StackModifier(), SymmetricModifier()],
+                    ),
                   ],
                   axes: [
-                    Defaults.horizontalAxis
-                      ..position = 0.5
-                      ..grid = null
-                      ..line = Defaults.strokeStyle,
-                    Defaults.verticalAxis
-                      ..position = 0.5
-                      ..grid = null
-                      ..line = Defaults.strokeStyle,
+                    Defaults.horizontalAxis,
+                    Defaults.verticalAxis,
                   ],
-                  coord: RectCoord(
-                    horizontalRange: [0.05, 0.95],
-                    verticalRange: [0.05, 0.95],
-                  ),
-                  selections: {'choose': IntervalSelection()},
+                  selections: {
+                    'touchMove': PointSelection(
+                      on: {
+                        GestureType.scaleUpdate,
+                        GestureType.tapDown,
+                        GestureType.longPressMoveUpdate
+                      },
+                      dim: 1,
+                      variable: 'date',
+                    )
+                  },
                   tooltip: TooltipGuide(
-                    anchor: (_) => Offset.zero,
-                    align: Alignment.bottomRight,
+                    followPointer: [false, true],
+                    align: Alignment.topLeft,
+                    offset: const Offset(-20, -20),
                     multiTuples: true,
+                    variables: ['type', 'value'],
                   ),
+                  crosshair: CrosshairGuide(followPointer: [false, true]),
                 ),
               ),
               Container(
                 child: const Text(
-                  'Polar Scatter Chart',
+                  'Spider Net Chart',
                   style: TextStyle(fontSize: 20),
                 ),
                 padding: const EdgeInsets.fromLTRB(20, 40, 20, 5),
               ),
               Container(
                 child: const Text(
-                  '- A red danger tag marks a position.',
+                  '- A loop connects the first and last point.',
                 ),
                 padding: const EdgeInsets.fromLTRB(10, 5, 10, 0),
                 alignment: Alignment.centerLeft,
@@ -206,89 +170,50 @@ class PointPage extends StatelessWidget {
                 width: 350,
                 height: 300,
                 child: Chart(
-                  data: scatterData,
+                  data: adjustData,
                   variables: {
-                    '0': Variable(
-                      accessor: (List datum) => datum[0] as num,
+                    'index': Variable(
+                      accessor: (Map map) => map['index'].toString(),
                     ),
-                    '1': Variable(
-                      accessor: (List datum) => datum[1] as num,
+                    'type': Variable(
+                      accessor: (Map map) => map['type'] as String,
                     ),
-                    '2': Variable(
-                      accessor: (List datum) => datum[2] as num,
-                    ),
-                    '4': Variable(
-                      accessor: (List datum) => datum[4].toString(),
+                    'value': Variable(
+                      accessor: (Map map) => map['value'] as num,
                     ),
                   },
                   elements: [
-                    PointElement(
-                      size: SizeAttr(variable: '2', values: [5, 20]),
+                    LineElement(
+                      shape: ShapeAttr(value: BasicLineShape(loop: true)),
+                      position: Varset('index') * Varset('value'),
+                      groupBy: 'type',
                       color: ColorAttr(
-                        variable: '4',
-                        values: Defaults.colors10,
-                        onSelection: {
-                          'choose': {true: (_) => Colors.red}
-                        },
-                      ),
-                      shape: ShapeAttr(variable: '4', values: [
-                        CircleShape(hollow: true),
-                        SquareShape(hollow: true),
-                      ]),
+                          variable: 'type', values: Defaults.colors10),
                     )
                   ],
+                  coord: PolarCoord(),
                   axes: [
                     Defaults.circularAxis,
                     Defaults.radialAxis,
                   ],
-                  coord: PolarCoord(),
-                  selections: {'choose': PointSelection(toggle: true)},
+                  selections: {
+                    'touchMove': PointSelection(
+                      on: {
+                        GestureType.scaleUpdate,
+                        GestureType.tapDown,
+                        GestureType.longPressMoveUpdate
+                      },
+                      dim: 1,
+                      variable: 'index',
+                    )
+                  },
                   tooltip: TooltipGuide(
                     anchor: (_) => Offset.zero,
                     align: Alignment.bottomRight,
                     multiTuples: true,
+                    variables: ['type', 'value'],
                   ),
-                  annotations: [
-                    TagAnnotation(
-                      label: Label(
-                          'DANGER',
-                          LabelStyle(const TextStyle(
-                            color: Colors.red,
-                            fontSize: 12,
-                          ))),
-                      values: [45000, 65],
-                    )
-                  ],
-                ),
-              ),
-              Container(
-                child: const Text(
-                  '1D Scatter Chart',
-                  style: TextStyle(fontSize: 20),
-                ),
-                padding: const EdgeInsets.fromLTRB(20, 40, 20, 5),
-              ),
-              Container(
-                margin: const EdgeInsets.only(top: 10),
-                width: 350,
-                height: 300,
-                child: Chart(
-                  data: const [65, 43, 22, 11],
-                  variables: {
-                    'value': Variable(
-                      accessor: (num value) => value,
-                      scale: LinearScale(min: 0),
-                    ),
-                  },
-                  elements: [
-                    PointElement(
-                      position: Varset('value'),
-                    )
-                  ],
-                  axes: [
-                    Defaults.verticalAxis,
-                  ],
-                  coord: RectCoord(dimCount: 1),
+                  crosshair: CrosshairGuide(followPointer: [false, true]),
                 ),
               ),
             ],

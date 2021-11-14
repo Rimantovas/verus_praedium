@@ -1,542 +1,542 @@
 [
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 77.3
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 66.9
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 71.9
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 72.2
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 67.8
- },
- {
-   "Laikotarpis": 2020,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 69.1
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 79.3
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 70.3
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 72.7
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 72.8
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 65.6
- },
- {
-   "Laikotarpis": 2019,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 68.9
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 78.5
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 65.6
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 72.5
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 71.9
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 66.2
- },
- {
-   "Laikotarpis": 2018,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 68.9
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 76.3
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 64.3
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 70.6
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 71
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 67.2
- },
- {
-   "Laikotarpis": 2017,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 66.2
- },
- {
-   "Laikotarpis": 2016,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 74.7
- },
- {
-   "Laikotarpis": 2016,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 64.5
- },
- {
-   "Laikotarpis": 2016,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 70.3
- },
- {
-   "Laikotarpis": 2016,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 70.9
- },
- {
-   "Laikotarpis": 2016,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 66.9
- },
- {
-   "Laikotarpis": 2016,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 62.6
- },
- {
-   "Laikotarpis": 2015,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 70.9
- },
- {
-   "Laikotarpis": 2015,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 61.8
- },
- {
-   "Laikotarpis": 2015,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 68.4
- },
- {
-   "Laikotarpis": 2015,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 70.9
- },
- {
-   "Laikotarpis": 2015,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 62.8
- },
- {
-   "Laikotarpis": 2015,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 61.3
- },
- {
-   "Laikotarpis": 2014,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 70.2
- },
- {
-   "Laikotarpis": 2014,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 58.3
- },
- {
-   "Laikotarpis": 2014,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 67.1
- },
- {
-   "Laikotarpis": 2014,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 68.5
- },
- {
-   "Laikotarpis": 2014,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 60.7
- },
- {
-   "Laikotarpis": 2014,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 61.6
- },
- {
-   "Laikotarpis": 2013,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 68.1
- },
- {
-   "Laikotarpis": 2013,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 59.2
- },
- {
-   "Laikotarpis": 2013,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 65.5
- },
- {
-   "Laikotarpis": 2013,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 67.1
- },
- {
-   "Laikotarpis": 2013,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 58.1
- },
- {
-   "Laikotarpis": 2013,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 59.6
- },
- {
-   "Laikotarpis": 2012,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 65.8
- },
- {
-   "Laikotarpis": 2012,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 59.5
- },
- {
-   "Laikotarpis": 2012,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 63.2
- },
- {
-   "Laikotarpis": 2012,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 66.4
- },
- {
-   "Laikotarpis": 2012,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 57.7
- },
- {
-   "Laikotarpis": 2012,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 57.8
- },
- {
-   "Laikotarpis": 2011,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Vilniaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 64.7
- },
- {
-   "Laikotarpis": 2011,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Alytaus apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 57.6
- },
- {
-   "Laikotarpis": 2011,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Kauno apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 60.6
- },
- {
-   "Laikotarpis": 2011,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Klaipėdos apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 62.9
- },
- {
-   "Laikotarpis": 2011,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Panevėžio apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 55.1
- },
- {
-   "Laikotarpis": 2011,
-   "Rodiklis": "Užimtumo lygis",
-   "Administracinė teritorija": "Šiaulių apskritis",
-   "Lytis": "Vyrai ir moterys",
-   "Amžius (15–64)": "15–64",
-   "Matavimo vienetai": "proc.",
-   "Reikšmė": 56.7
- }
+	{
+		"Laikotarpis": 2011,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 64.7
+	},
+	{
+		"Laikotarpis": 2011,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 57.6
+	},
+	{
+		"Laikotarpis": 2011,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 60.6
+	},
+	{
+		"Laikotarpis": 2011,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 62.9
+	},
+	{
+		"Laikotarpis": 2011,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 55.1
+	},
+	{
+		"Laikotarpis": 2011,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 56.7
+	},
+	{
+		"Laikotarpis": 2012,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 65.8
+	},
+	{
+		"Laikotarpis": 2012,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 59.5
+	},
+	{
+		"Laikotarpis": 2012,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 63.2
+	},
+	{
+		"Laikotarpis": 2012,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 66.4
+	},
+	{
+		"Laikotarpis": 2012,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 57.7
+	},
+	{
+		"Laikotarpis": 2012,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 57.8
+	},
+	{
+		"Laikotarpis": 2013,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 68.1
+	},
+	{
+		"Laikotarpis": 2013,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 59.2
+	},
+	{
+		"Laikotarpis": 2013,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 65.5
+	},
+	{
+		"Laikotarpis": 2013,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 67.1
+	},
+	{
+		"Laikotarpis": 2013,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 58.1
+	},
+	{
+		"Laikotarpis": 2013,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 59.6
+	},
+	{
+		"Laikotarpis": 2014,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 70.2
+	},
+	{
+		"Laikotarpis": 2014,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 58.3
+	},
+	{
+		"Laikotarpis": 2014,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 67.1
+	},
+	{
+		"Laikotarpis": 2014,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 68.5
+	},
+	{
+		"Laikotarpis": 2014,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 60.7
+	},
+	{
+		"Laikotarpis": 2014,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 61.6
+	},
+	{
+		"Laikotarpis": 2015,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 70.9
+	},
+	{
+		"Laikotarpis": 2015,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 61.8
+	},
+	{
+		"Laikotarpis": 2015,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 68.4
+	},
+	{
+		"Laikotarpis": 2015,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 70.9
+	},
+	{
+		"Laikotarpis": 2015,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 62.8
+	},
+	{
+		"Laikotarpis": 2015,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 61.3
+	},
+	{
+		"Laikotarpis": 2016,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 74.7
+	},
+	{
+		"Laikotarpis": 2016,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 64.5
+	},
+	{
+		"Laikotarpis": 2016,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 70.3
+	},
+	{
+		"Laikotarpis": 2016,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 70.9
+	},
+	{
+		"Laikotarpis": 2016,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 66.9
+	},
+	{
+		"Laikotarpis": 2016,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 62.6
+	},
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 76.3
+	},
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 64.3
+	},
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 70.6
+	},
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 71
+	},
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 67.2
+	},
+	{
+		"Laikotarpis": 2017,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 66.2
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 78.5
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 65.6
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 72.5
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 71.9
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 66.2
+	},
+	{
+		"Laikotarpis": 2018,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 68.9
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 79.3
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 70.3
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 72.7
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 72.8
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 65.6
+	},
+	{
+		"Laikotarpis": 2019,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 68.9
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Vilniaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 77.3
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Alytaus apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 66.9
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Kauno apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 71.9
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Klaipėdos apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 72.2
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Panevėžio apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 67.8
+	},
+	{
+		"Laikotarpis": 2020,
+		"Rodiklis": "Užimtumo lygis",
+		"Administracinė teritorija": "Šiaulių apskritis",
+		"Lytis": "Vyrai ir moterys",
+		"Amžius (15–64)": "15–64",
+		"Matavimo vienetai": "proc.",
+		"Reikšmė": 69.1
+	}
 ]
