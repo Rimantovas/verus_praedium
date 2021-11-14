@@ -144,18 +144,24 @@ class _SlidersPageState extends State<SlidersPage> {
                             style: const TextStyle(fontSize: 20),
                           ),
                         ),
-                        Slider(
-                            value: sliderInfo[index]['value'].toDouble(),
-                            activeColor: (sliderInfo[index]['check'] as bool)
-                                ? Theme.of(context).primaryColor
-                                : const Color(0xFF656565),
-                            inactiveColor:
-                                Theme.of(context).colorScheme.secondary,
-                            max: 1,
-                            // divisions: 5,
-                            onChanged: (value) => setState(() {
-                                  sliderInfo[index]['value'] = value;
-                                })),
+                        SliderTheme(
+                          data: SliderThemeData(
+                              thumbShape: RoundSliderThumbShape(
+                                  enabledThumbRadius:
+                                      sliderInfo[index]['value'] * 15 + 5)),
+                          child: Slider(
+                              value: sliderInfo[index]['value'].toDouble(),
+                              activeColor: (sliderInfo[index]['check'] as bool)
+                                  ? Theme.of(context).primaryColor
+                                  : const Color(0xFF656565),
+                              inactiveColor:
+                                  Theme.of(context).colorScheme.secondary,
+                              max: 1,
+                              // divisions: 5,
+                              onChanged: (value) => setState(() {
+                                    sliderInfo[index]['value'] = value;
+                                  })),
+                        ),
                         const SizedBox(
                           height: 20,
                         ),
