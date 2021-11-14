@@ -61,9 +61,7 @@ class BarChart extends StatelessWidget {
         graphic.Defaults.verticalAxis
           ..grid = graphic.StrokeStyle(color: Colors.white)
           ..label = graphic.LabelStyle(
-              const TextStyle(
-                fontSize: 8,
-              ),
+              const TextStyle(fontSize: 8, color: Colors.white),
               offset: const Offset(-4, 0))
       ],
       selections: {'tap': graphic.PointSelection(dim: 1)},
