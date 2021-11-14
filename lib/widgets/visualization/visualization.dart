@@ -15,8 +15,8 @@ class Visualization {
       AreaChart(
         results: results,
       ),
-      RoseChart(results: results),
-      FunnelChart(results: results),
+      //RoseChart(results: results),
+      //FunnelChart(results: results),
     ];
   }
 }
