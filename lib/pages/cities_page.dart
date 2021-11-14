@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:share_plus/share_plus.dart';
+import 'package:verus_praedium/globals/globals.dart';
 import 'package:verus_praedium/models/city.dart';
 import 'package:verus_praedium/pages/map.dart';
 import 'package:verus_praedium/pages/statistics.dart';
@@ -7,6 +9,18 @@ import 'package:verus_praedium/widgets/city_card.dart';
 class CitiesPage extends StatelessWidget {
   const CitiesPage({Key? key, required this.cities}) : super(key: key);
   final List<City> cities;
+
+  String sharingText() {
+    String text = '';
+    double maxValue =
+        sliderInfo.where((element) => element['check']).length.toDouble();
+    for (var item in cities) {
+      text +=
+          '${item.name} = ${item.getStarRating3().toStringAsFixed(2)}/${maxValue.toStringAsFixed(0)} \n';
+    }
+    return text;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,6 +28,13 @@ class CitiesPage extends StatelessWidget {
           backgroundColor: Colors.transparent,
           shadowColor: Colors.transparent,
           actions: [
+            IconButton(
+              icon: const Icon(
+                Icons.share,
+                color: Colors.white,
+              ),
+              onPressed: () => Share.share(sharingText()),
+            ),
             IconButton(
               icon: const Icon(
                 Icons.map,
