@@ -18,9 +18,37 @@ class _SlidersPageState extends State<SlidersPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        shadowColor: Colors.transparent,
-      ),
+          backgroundColor: Colors.transparent,
+          shadowColor: Colors.transparent,
+          actions: [
+            IconButton(
+                icon: const Icon(Icons.info_outline,
+                    color: Colors.white, size: 20),
+                onPressed: () {
+                  showDialog<void>(
+                    context: context,
+                    builder: (BuildContext context) {
+                      return Container(
+                        height: 400,
+                        color: const Color(0xFF592C5A),
+                        child: Center(
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisSize: MainAxisSize.min,
+                            children: <Widget>[
+                              const Text('Modal BottomSheet'),
+                              ElevatedButton(
+                                child: const Text('Close BottomSheet'),
+                                onPressed: () => Navigator.pop(context),
+                              )
+                            ],
+                          ),
+                        ),
+                      );
+                    },
+                  );
+                })
+          ]),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: ElevatedButton(
         child: const Text('Žiūrėti rezultatus'),
@@ -42,6 +70,11 @@ class _SlidersPageState extends State<SlidersPage> {
       body: SafeArea(
         child: CustomScrollView(
           slivers: [
+            // SliverToBoxAdapter(
+            //     child: Column(children: [
+            //   Image.asset('assets/images/questionSmall.png',
+            //       alignment: Alignment.topRight, width: 25, height: 25)
+            // ])),
             SliverToBoxAdapter(
               child: Column(
                 children: [
