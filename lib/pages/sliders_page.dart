@@ -32,7 +32,7 @@ class _SlidersPageState extends State<SlidersPage> {
                         title: Text('Instrukcijos',
                             style: TextStyle(color: Colors.black)),
                         content: Text(
-                          'Duomenys buvo imti iš oficialiosios statistikos portalų:\nhttps://osp.stat.gov.lt/\nhttps://osp.stat.gov.lt/statistiniu-rodikliu-analize#/',
+                          'Duomenys buvo imti iš oficialiosios statistikos portalų:\nhttps://osp.stat.gov.lt/\nhttps://osp.stat.gov.lt/statistiniu-rodikliu-analize#/ \n\nSkaičiavimo paaiškinimas:\nSlankiklio reikšmės yra intervale nuo mažiausios rodiklio reikšmės iki didžiausios rodiklio reikšmės.\n\nPaslinkus slankiklius į norimas vietas ir paspaudus "Žiūrėti rezultatus", daugiausia balų bus duodama tiem miestam kurių rodiklių reikšmės buvo arčiausiai slankiklio, ir mažiausia balų - kurios buvo toliausiai',
                           style: TextStyle(color: Colors.black),
                         ),
                       );

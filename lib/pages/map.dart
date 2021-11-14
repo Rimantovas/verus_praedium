@@ -29,7 +29,7 @@ class _MapPageState extends State<MapPage> {
               const Color(0xFF602BA0)
                   .withOpacity(e.getStarRating3() / checkCount),
               e.enumas.name,
-              'e.enumas.name\n${(e.getStarRating3() / checkCount * 100).toStringAsFixed(2)} atiktis'))
+              '${e.enumas.name}\n${(e.getStarRating3() / checkCount * 100).toStringAsFixed(2)} atiktis'))
           .toList()
       // Model(
       //     'Kauno apskritis',
