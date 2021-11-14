@@ -3,11 +3,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:verus_praedium/pages/sliders_page.dart';
-import 'package:verus_praedium/pages/test.dart';
-import 'package:verus_praedium/pages/test2.dart';
-import 'package:verus_praedium/pages/test3.dart';
-import 'package:verus_praedium/pages/test4.dart';
-import 'package:verus_praedium/pages/test5.dart';
 
 import 'globals/globals.dart';
 import 'models/city.dart';

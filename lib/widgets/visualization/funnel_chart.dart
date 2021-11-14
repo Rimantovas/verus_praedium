@@ -30,7 +30,7 @@ class FunnelChart extends StatelessWidget {
               encode: (tuple) => graphic.Label(
                     tuple['Reikšmės'].toString(),
                     graphic.LabelStyle(
-                        TextStyle(fontSize: 12, color: Colors.black)),
+                        const TextStyle(fontSize: 12, color: Colors.black)),
                   )),
           elevation: graphic.ElevationAttr(value: 5),
           shape: graphic.ShapeAttr(value: graphic.FunnelShape()),

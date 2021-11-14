@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:verus_praedium/globals/globals.dart';
 import 'package:verus_praedium/models/city.dart';
 import 'package:verus_praedium/pages/map.dart';
 import 'package:verus_praedium/pages/statistics.dart';

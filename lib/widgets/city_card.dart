@@ -59,7 +59,7 @@ class CityCard extends StatelessWidget {
                     left: 0,
                     child: Container(
                       width: 150,
-                      padding: EdgeInsets.only(bottom: 10),
+                      padding: const EdgeInsets.only(bottom: 10),
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                             colors: [

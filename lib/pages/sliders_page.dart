@@ -5,7 +5,7 @@ import 'package:verus_praedium/models/city.dart';
 import 'package:verus_praedium/pages/cities_page.dart';
 
 class SlidersPage extends StatefulWidget {
-  SlidersPage({Key? key, required this.cities}) : super(key: key);
+  const SlidersPage({Key? key, required this.cities}) : super(key: key);
 
   final List<City> cities;
 
@@ -24,7 +24,7 @@ class _SlidersPageState extends State<SlidersPage> {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: ElevatedButton(
         child: const Text('Žiūrėti rezultatus'),
-        style: ButtonStyle().copyWith(
+        style: const ButtonStyle().copyWith(
           fixedSize: MaterialStateProperty.all(
               Size(MediaQuery.of(context).size.width * 0.8, 50)),
           backgroundColor:

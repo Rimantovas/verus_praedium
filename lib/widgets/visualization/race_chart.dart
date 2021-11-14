@@ -9,7 +9,7 @@ class RaceChart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return graphic.Chart(
-      padding: EdgeInsets.all(8),
+      padding: const EdgeInsets.all(8),
       data: results.reiksmes,
       variables: {
         'Metai': graphic.Variable(accessor: (Map map) => map['year'] as String),

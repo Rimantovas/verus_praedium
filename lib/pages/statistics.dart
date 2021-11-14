@@ -1,6 +1,4 @@
-import 'package:charts_flutter/flutter.dart';
 import 'package:flutter/material.dart';
-import 'package:verus_praedium/globals/globals.dart';
 import 'package:verus_praedium/models/city.dart';
 import 'package:verus_praedium/widgets/expansion_card.dart';
 import 'package:verus_praedium/widgets/visualization/visualization.dart';
