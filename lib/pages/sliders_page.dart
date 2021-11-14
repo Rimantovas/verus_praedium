@@ -1,5 +1,6 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:verus_praedium/globals/globals.dart';
 import 'package:verus_praedium/models/city.dart';
 import 'package:verus_praedium/pages/cities_page.dart';
@@ -14,6 +15,10 @@ class SlidersPage extends StatefulWidget {
 }
 
 class _SlidersPageState extends State<SlidersPage> {
+  void _launchURL(String _url) async => await canLaunch(_url)
+      ? await launch(_url)
+      : throw 'Could not launch $_url';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,13 +32,34 @@ class _SlidersPageState extends State<SlidersPage> {
                   showDialog<void>(
                     context: context,
                     builder: (BuildContext context) {
-                      return const AlertDialog(
+                      return AlertDialog(
                         backgroundColor: Colors.white,
-                        title: Text('Instrukcijos',
+                        title: const Text('Instrukcijos',
                             style: TextStyle(color: Colors.black)),
-                        content: Text(
-                          'Duomenys buvo imti iš oficialiosios statistikos portalų:\nhttps://osp.stat.gov.lt/\nhttps://osp.stat.gov.lt/statistiniu-rodikliu-analize#/ \n\nSkaičiavimo paaiškinimas:\nSlankiklio reikšmės yra intervale nuo mažiausios rodiklio reikšmės iki didžiausios rodiklio reikšmės.\n\nPaslinkus slankiklius į norimas vietas ir paspaudus "Žiūrėti rezultatus", daugiausia balų bus duodama tiem miestam kurių rodiklių reikšmės buvo arčiausiai slankiklio, ir mažiausia balų - kurios buvo toliausiai',
-                          style: TextStyle(color: Colors.black),
+                        content: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const Text(
+                              'Duomenys buvo imti iš oficialiosios statistikos portalo:',
+                              style: TextStyle(color: Colors.black),
+                            ),
+                            TextButton(
+                                onPressed: () {
+                                  _launchURL('https://osp.stat.gov.lt/');
+                                },
+                                child: const Text('https://osp.stat.gov.lt/')),
+                            // TextButton(
+                            //     onPressed: () {
+                            //       _launchURL(
+                            //           'https://osp.stat.gov.lt/statistiniu-rodikliu-analize#/');
+                            //     },
+                            //     child: const Text(
+                            //         'https://osp.stat.gov.lt/statistiniu-rodikliu-analize#/')),
+                            const Text(
+                              'Skaičiavimo paaiškinimas:\nSlankiklio reikšmės yra intervale nuo mažiausios rodiklio reikšmės iki didžiausios rodiklio reikšmės.\n\nPaslinkus slankiklius į norimas vietas ir paspaudus "Žiūrėti rezultatus", daugiausia balų bus duodama tiem miestam kurių rodiklių reikšmės buvo arčiausiai slankiklio, ir mažiausia balų - kurios buvo toliausiai',
+                              style: TextStyle(color: Colors.black),
+                            )
+                          ],
                         ),
                       );
                     },
