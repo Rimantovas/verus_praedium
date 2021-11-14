@@ -22,17 +22,18 @@ class _SlidersPageState extends State<SlidersPage> {
           shadowColor: Colors.transparent,
           actions: [
             IconButton(
-                icon: const Icon(Icons.info_outline,
-                    color: Colors.white, size: 20),
+                icon: const Icon(Icons.info_outline, color: Colors.white),
                 onPressed: () {
                   showDialog<void>(
                     context: context,
                     builder: (BuildContext context) {
-                      return AlertDialog(
-                        title: const Text('Instrukcijos'),
-                        content: Center(
-                          child: const Text(
-                              'Duomenys buvo imti iš oficialiosios statistikos portalų:\nhttps://osp.stat.gov.lt/\nhttps://osp.stat.gov.lt/statistiniu-rodikliu-analize#/'),
+                      return const AlertDialog(
+                        backgroundColor: Colors.white,
+                        title: Text('Instrukcijos',
+                            style: TextStyle(color: Colors.black)),
+                        content: Text(
+                          'Duomenys buvo imti iš oficialiosios statistikos portalų:\nhttps://osp.stat.gov.lt/\nhttps://osp.stat.gov.lt/statistiniu-rodikliu-analize#/',
+                          style: TextStyle(color: Colors.black),
                         ),
                       );
                     },
