@@ -65,7 +65,7 @@ extension RodikliuPavadinimai on Rodikliai {
       case Rodikliai.butuKainos:
         return 'Butų vidutinės kainos';
       case Rodikliai.uzimtumas:
-        return 'Užimtumo lygis';
+        return 'Gyventojų užimtumo lygis';
       case Rodikliai.atlyginimas:
         return 'Darbo užmokestis';
       case Rodikliai.darzeliai:
