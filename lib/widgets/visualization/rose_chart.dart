@@ -30,7 +30,7 @@ class RoseChart extends StatelessWidget {
           elevation: graphic.ElevationAttr(value: 5),
           shape: graphic.ShapeAttr(
               value: graphic.RectShape(
-            borderRadius: const BorderRadius.all(Radius.circular(20)),
+            borderRadius: const BorderRadius.all(Radius.circular(5)),
           )),
           // gradient: graphic.GradientAttr(
           //     value: LinearGradient(
@@ -63,7 +63,7 @@ class RoseChart extends StatelessWidget {
           //     }),
         ),
       ],
-      coord: graphic.PolarCoord(startRadius: 0.05),
+      coord: graphic.PolarCoord(startRadius: 0.10),
       // axes: [
       //   graphic.Defaults.horizontalAxis
       //     ..line = null

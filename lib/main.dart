@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter/services.dart';
 import 'package:verus_praedium/pages/sliders_page.dart';
 
 import 'globals/globals.dart';
@@ -9,7 +10,10 @@ import 'models/city.dart';
 import 'models/data_results.dart';
 
 void main() {
-  runApp(const MyApp());
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+      .then((_) {
+    runApp(const MyApp());
+  });
 }
 
 class MyApp extends StatefulWidget {
@@ -36,7 +40,7 @@ class _MyAppState extends State<MyApp> {
     String namai =
         await DefaultAssetBundle.of(context).loadString("assets/namai.json");
     String statyba =
-        await DefaultAssetBundle.of(context).loadString("assets/statyba.json");
+        await DefaultAssetBundle.of(context).loadString("assets/statybos.json");
     String uzimtumas = await DefaultAssetBundle.of(context)
         .loadString("assets/uzimtumas.json");
     String butai =
@@ -50,20 +54,20 @@ class _MyAppState extends State<MyApp> {
           name: element['name'].toString(),
           enumas: element['enum'],
           results: {
-            Rodikliai.mokyklos: DataResults.fromJson(
-                jsonDecode(mokyklos), element['enum'], Rodikliai.mokyklos),
+            Rodikliai.pastatuSkaicius: DataResults.fromJson(jsonDecode(statyba),
+                element['enum'], Rodikliai.pastatuSkaicius),
+            Rodikliai.namuKainos: DataResults.fromJson(
+                jsonDecode(namai), element['enum'], Rodikliai.namuKainos),
+            Rodikliai.butuKainos: DataResults.fromJson(
+                jsonDecode(butai), element['enum'], Rodikliai.butuKainos),
+            Rodikliai.uzimtumas: DataResults.fromJson(
+                jsonDecode(uzimtumas), element['enum'], Rodikliai.uzimtumas),
             Rodikliai.atlyginimas: DataResults.fromJson(jsonDecode(atlyginimai),
                 element['enum'], Rodikliai.atlyginimas),
             Rodikliai.darzeliai: DataResults.fromJson(
                 jsonDecode(darzeliai), element['enum'], Rodikliai.darzeliai),
-            Rodikliai.namuKainos: DataResults.fromJson(
-                jsonDecode(namai), element['enum'], Rodikliai.namuKainos),
-            Rodikliai.pastatuSkaicius: DataResults.fromJson(jsonDecode(statyba),
-                element['enum'], Rodikliai.pastatuSkaicius),
-            Rodikliai.uzimtumas: DataResults.fromJson(
-                jsonDecode(uzimtumas), element['enum'], Rodikliai.uzimtumas),
-            Rodikliai.butuKainos: DataResults.fromJson(
-                jsonDecode(butai), element['enum'], Rodikliai.butuKainos),
+            Rodikliai.mokyklos: DataResults.fromJson(
+                jsonDecode(mokyklos), element['enum'], Rodikliai.mokyklos),
             Rodikliai.nusikaltimai: DataResults.fromJson(
                 jsonDecode(nusikaltimai),
                 element['enum'],

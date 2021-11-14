@@ -48,22 +48,24 @@ class CitiesPage extends StatelessWidget {
                           ))),
             ),
           ]),
-      body: Center(
-        child: Wrap(
-          children: [
-            ...cities.map(
-              (e) => Padding(
-                padding: const EdgeInsets.all(15),
-                child: CityCard(
-                  city: e,
-                  onTap: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => StatisticsPage(city: e))),
+      body: SingleChildScrollView(
+        child: Center(
+          child: Wrap(
+            children: [
+              ...cities.map(
+                (e) => Padding(
+                  padding: const EdgeInsets.all(15),
+                  child: CityCard(
+                    city: e,
+                    onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => StatisticsPage(city: e))),
+                  ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

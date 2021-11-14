@@ -19,6 +19,7 @@ class ExpansionCard extends StatefulWidget {
 }
 
 class _ExpansionCardState extends State<ExpansionCard> {
+  CarouselController buttonCarouselController = CarouselController();
   bool isExpanded = false;
   @override
   Widget build(BuildContext context) {
@@ -47,18 +48,38 @@ class _ExpansionCardState extends State<ExpansionCard> {
                   : Icons.keyboard_arrow_up)),
         ),
         if (isExpanded)
-          CarouselSlider(
-            items: widget.charts
-                .map((e) => Container(
-                      width: MediaQuery.of(context).size.width * .95,
-                      margin: const EdgeInsets.all(8),
-                      child: e,
-                    ))
-                .toList(),
-            options: CarouselOptions(
-              viewportFraction: 1,
-              height: MediaQuery.of(context).size.height * 0.3,
-            ),
+          Stack(
+            children: [
+              CarouselSlider(
+                carouselController: buttonCarouselController,
+                items: widget.charts
+                    .map((e) => Container(
+                          width: MediaQuery.of(context).size.width * .95,
+                          margin: const EdgeInsets.all(8),
+                          child: e,
+                        ))
+                    .toList(),
+                options: CarouselOptions(
+                  viewportFraction: 1,
+                  height: MediaQuery.of(context).size.height * 0.3,
+                ),
+              ),
+              Positioned(
+                  right: 0,
+                  bottom: 0,
+                  top: 0,
+                  child: Container(
+                      alignment: Alignment.centerRight,
+                      padding: const EdgeInsets.only(right: 5),
+                      child: IconButton(
+                          onPressed: () {
+                            buttonCarouselController.nextPage();
+                          },
+                          icon: const Icon(
+                            Icons.arrow_forward_ios,
+                            size: 30,
+                          ))))
+            ],
           )
       ],
     );
