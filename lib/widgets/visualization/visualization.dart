@@ -16,7 +16,7 @@ class Visualization {
         results: results,
       ),
       //RoseChart(results: results),
-      FunnelChart(results: results),
+      //FunnelChart(results: results),
     ];
   }
 }
