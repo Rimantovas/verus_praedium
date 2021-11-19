@@ -25,6 +25,8 @@ class _SlidersPageState extends State<SlidersPage> {
       appBar: AppBar(
           backgroundColor: Colors.transparent,
           shadowColor: Colors.transparent,
+          title: const Text('Reitingų skaičiuoklė'),
+          centerTitle: true,
           actions: [
             IconButton(
                 icon: const Icon(Icons.info_outline, color: Colors.white),
@@ -75,7 +77,7 @@ class _SlidersPageState extends State<SlidersPage> {
           backgroundColor:
               MaterialStateProperty.all(Theme.of(context).primaryColor),
         ),
-        onPressed: () async {
+        onPressed: () {
           Navigator.push(
               context,
               MaterialPageRoute(
@@ -184,9 +186,11 @@ class _SlidersPageState extends State<SlidersPage> {
                                   Theme.of(context).colorScheme.secondary,
                               max: 1,
                               // divisions: 5,
-                              onChanged: (value) => setState(() {
-                                    sliderInfo[index]['value'] = value;
-                                  })),
+                              onChanged: (value) => sliderInfo[index]['check']
+                                  ? setState(() {
+                                      sliderInfo[index]['value'] = value;
+                                    })
+                                  : null),
                         ),
                         const SizedBox(
                           height: 20,

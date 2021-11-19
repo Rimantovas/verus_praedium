@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
+import 'package:verus_praedium/pages/main_page.dart';
 import 'package:verus_praedium/pages/sliders_page.dart';
 
 import 'globals/globals.dart';
@@ -10,10 +11,7 @@ import 'models/city.dart';
 import 'models/data_results.dart';
 
 void main() {
-  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
-      .then((_) {
-    runApp(const MyApp());
-  });
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
@@ -25,8 +23,36 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   List<City> initialData = [];
+  List<City> priceData = [];
 
   bool splashDone = false;
+
+  Future<void> calculatePrices() async {
+    List<City> cities = [];
+    //paimam json
+    String namai =
+        await DefaultAssetBundle.of(context).loadString("assets/namai.json");
+    String butai =
+        await DefaultAssetBundle.of(context).loadString("assets/butai.json");
+    for (var element in images) {
+      cities.add(
+        City(
+          imageUrl: element['url'].toString(),
+          name: element['name'].toString(),
+          enumas: element['enum'],
+          results: {
+            Rodikliai.namuKainos: DataResults.fromJson(
+                jsonDecode(namai), element['enum'], Rodikliai.namuKainos),
+            Rodikliai.butuKainos: DataResults.fromJson(
+                jsonDecode(butai), element['enum'], Rodikliai.butuKainos),
+          },
+        ),
+      );
+    }
+    setState(() {
+      priceData = cities;
+    });
+  }
 
   Future<void> calculateDate() async {
     List<City> cities = [];
@@ -76,6 +102,7 @@ class _MyAppState extends State<MyApp> {
         ),
       );
     }
+
     setState(() {
       initialData = cities;
     });
@@ -93,6 +120,7 @@ class _MyAppState extends State<MyApp> {
       }
     });
     calculateDate();
+    calculatePrices();
   }
 
   @override
@@ -107,11 +135,14 @@ class _MyAppState extends State<MyApp> {
           colorScheme: ColorScheme.fromSwatch().copyWith(
               brightness: Brightness.dark, secondary: const Color(0xFFA8A8D6)),
           appBarTheme: const AppBarTheme(
+            backgroundColor: Colors.transparent,
+            shadowColor: Colors.transparent,
             foregroundColor: Colors.white,
           )),
       themeMode: ThemeMode.dark,
       home: initialData.isNotEmpty && splashDone
-          ? SlidersPage(
+          ? MainPage(
+              priceCities: priceData,
               cities: initialData,
             )
           : Material(

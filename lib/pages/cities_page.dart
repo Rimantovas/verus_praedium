@@ -27,6 +27,8 @@ class CitiesPage extends StatelessWidget {
       appBar: AppBar(
           backgroundColor: Colors.transparent,
           shadowColor: Colors.transparent,
+          title: const Text('Miestai'),
+          centerTitle: true,
           actions: [
             IconButton(
               icon: const Icon(
@@ -48,8 +50,8 @@ class CitiesPage extends StatelessWidget {
                           ))),
             ),
           ]),
-      body: SingleChildScrollView(
-        child: Center(
+      body: Center(
+        child: SingleChildScrollView(
           child: Wrap(
             children: [
               ...cities.map(

@@ -82,4 +82,21 @@ class City {
     }
     return result;
   }
+
+  double getPriceRating(Rodikliai rodiklis) {
+    double result = 0;
+    DataResults? item = results[rodiklis];
+    if (item != null) {
+      double valueOfSlider =
+          item.citiesMin + (item.citiesMax - item.citiesMin) * 0;
+      double x = 0;
+      if (item.citiesMax - valueOfSlider > valueOfSlider - item.citiesMin) {
+        x = item.citiesMax - valueOfSlider;
+      } else {
+        x = valueOfSlider - item.citiesMin;
+      }
+      result += 1 - ((valueOfSlider - item.vidurkis).abs() / x);
+    }
+    return result;
+  }
 }

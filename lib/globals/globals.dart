@@ -59,17 +59,17 @@ extension RodikliuPavadinimai on Rodikliai {
       case Rodikliai.nusikaltimai:
         return 'Nusikaltimų skaičius';
       case Rodikliai.pastatuSkaicius:
-        return 'Baigtų statyti pastatų skaičius';
+        return 'Užbaigtų statyti pastatų skaičius';
       case Rodikliai.namuKainos:
-        return 'Namų vidutinės kainos';
+        return 'Vidutinės namų kainos';
       case Rodikliai.butuKainos:
-        return 'Butų vidutinės kainos';
+        return 'Vidutinės butų kainos';
       case Rodikliai.uzimtumas:
         return 'Gyventojų užimtumo lygis';
       case Rodikliai.atlyginimas:
         return 'Darbo užmokestis';
       case Rodikliai.darzeliai:
-        return 'Darželiu skaičius';
+        return 'Darželių skaičius';
       case Rodikliai.mokyklos:
         return 'Mokyklų skaičius';
       default:
